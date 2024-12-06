@@ -5,7 +5,8 @@ import HeroSection from './components/HeroSection'
 import NonVeg from './components/NonVeg' 
 import DryFruits from './components/DryFruits' 
 import Veg from './components/Veg'
-
+import Description from './components/Description'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
      <NonVeg/>  
       <DryFruits/> 
       <Veg/>   
+      <Description/>
+      <Testimonials/>
     </div>
   )
 }
