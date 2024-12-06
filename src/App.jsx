@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-// import BodySection from './components/BodySection'  
+import BodySection from './components/BodySection'  
 // import HeroSection from './components/HeroSection'
 // import NonVeg from './components/NonVeg' 
 // import DryFruits from './components/DryFruits' 
@@ -11,8 +11,8 @@ const App = () => {
   return (
     <div>
         <Header/>
-      {/* <BodySection/> 
-      <HeroSection/> */}
+       <BodySection/> 
+   {/*   <HeroSection/> */}
 
       {/* <NonVeg/>  
       <DryFruits/> 
