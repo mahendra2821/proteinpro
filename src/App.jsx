@@ -7,7 +7,7 @@ import DryFruits from './components/DryFruits'
 import Veg from './components/Veg'
 import Description from './components/Description'
 import Testimonials from './components/Testimonials'
-
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
@@ -20,6 +20,7 @@ const App = () => {
       <Veg/>   
       <Description/>
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }
